@@ -7,7 +7,7 @@ theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 baseURL = "https://seonwueyes.github.io/"
-title = "Example - CV"
+title = "최봉기 이력서"
 #googleAnalytics = ""
 
 [params]
