@@ -10,7 +10,7 @@ BasicInfo:
     # - Icon: fas fa-globe
     #   Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://sunwoohama.tistory.com" target="_blank">ines-almeida.com</a>
+      Info: <a class="contact__link" href="https://sunwoohama.tistory.com" target="_blank">blog</a>
 
     - Icon: fas fa-map-marker-alt
       Info: 대한민국
