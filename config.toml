@@ -1,0 +1,30 @@
+languageCode = "ko-kr"
+defaultContentLanguage = "ko"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://example.com/"
+title = "Example - CV"
+#googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#222"
+colorPageBackground = "#ddd"
+colorPrimary = "#e3bfb8"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#e3bfb8"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#222"
+colorRightColumnBodyText = "#222"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#e3bfb8"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = false
+footerNote = "© 2026 Seonwu. All rights reserved."

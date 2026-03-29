@@ -1,0 +1,134 @@
+BasicInfo:
+  FirstName: 최봉기
+  LastName:
+  Photo: img/avatar-bgchoi.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +82 010 6822 3641
+    - Icon: fas fa-envelope
+      Info: seonwueyes@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
+    - Icon: fas fa-map-marker-alt
+      Info: 대한민국
+
+Profile: DAU 100만 규모 서비스와 대량의 동시 연결을 처리하는 IoT 환경에서 AWS 기반 인프라를 설계·운영해온 백엔드 개발자입니다. 성능 최적화와 안정적인 서비스 운영에 강점을 가지고 있으며, 변화하는 서비스 요구사항에 맞춰 지속적으로 진화하는 아키텍처를 설계하는 것을 지향합니다.
+
+Experience:
+  - Employer: 주식회사커넥트아이
+    Place: 서울, 대한민국
+    Positions:
+      - Title: 인프라 구축 및 성능 고도화
+        Date: 3월 2023 - 현재
+        Details:
+          - Microsoft CodePush 중단에 대응해 S3+CloudFront 기반 코드 푸시를 자체 구축하여 서비스 영속성을 확보하고 인프라 비용을 80% 절감
+          - 분사 과정에서 <strong>zabbix와 scouter를 활용한 독자적 인프라 스택</strong>을 신규 구축하여 조직의 기술적 독립을 완수
+          - 돌아가는 코드'를 넘어 '죽지 않는 시스템'을 위해 Circuit Breaker와 RabbitMQ를 활용한 고가용성 설계를 구축
+          - 사내 VPN 및 DNS 구축을 통한 내부 개발 테스트 환경 구축
+        Badges:
+          ["ZABBIX", "NodeJS", "LDAP", "Jenkins", "LDAP", "SCOUTER", "AWS"]
+      - Title: 신규 매출 및 서비스 확장 기여
+        Date: 2023.03 - 현재
+        Details:
+          - 열달 포토북 구현을 통한 신규 매출 기능 구현
+          - 인앱 결제 도입으로 전체 유료 결제의 약 90%를 차지하는 핵심 매출 채널 확보
+          - DB(보험) 분배 구조 설계를 통해 제휴사별 할당량을 유연하게 조절할 수 있도록 개선, 수익 최적화 및 운영 효율성 향상
+        Badges: ["Spring boot", "PDF", "Java"]
+      - Title: 안정적 운영 및 신규 서비스 런칭
+        Date: 2023.03 - 현재
+        Details:
+          - 유저 55만(MAU 11만) 규모 환경에서 안정적인 서비스 운영 및 개선
+          - 영미·베트남·일본 대상 글로벌 서비스 아키텍처 설계 및 런칭
+          - 성장 보고서 및 성장 속도 예측 기능 구현
+        Badges: ["Spring boot", "Java", "MySQL"]
+      - Title: 구조적 결함 개선 및 차세대 기술 스택 검증
+        Date: 2023.03 - 현재
+        Details:
+          - AI 기반 코드 리뷰 및 테스트 코드 자동화 도입을 위한 PoC를 수행
+          - 임신 주차 및 산모 정보를 기반으로 출생 체중 예측 모델 개발
+          - TensorFlow 기반 MLP 모델 설계 및 학습 수행
+          - Spring Cloud 기반 MSA 구축
+        Badges: ["Spring Cloud", "Apache Spark", "Python", "Tensorflow"]
+  - Employer: 주식 회사 리치 플래닛
+    Place: 서울, 대한민국
+    Positions:
+      - Title: React Native 앱 개발
+        Date: 2020.04 - 2026.03
+        Details:
+          - SVG Chart 기반 데이터 시각화 기능 개발 (태아 성장, 산모 체중 보고서)
+          - 캘린더, 성장보고서 등 주요 기능 설계 및 개발
+          - 렌더링 최적화를 통해 주요 화면 성능 개선
+        Badges: ["React Native", "MobX", "styled-components"]
+      - Title: API 개발
+        Date: 2020.04 - 2026.03
+        Details:
+          - 육아 성장관리 및 커뮤니티(열달맘톡) 기능 설계 및 개발
+          - API 응답 구조 개선 및 쿼리 최적화를 통해 평균 응답 속도 20% 이상 개선 및 서버 부하 감소
+          - 푸시 발송 구조 개선으로 메시지 처리 안정성 및 전달 효율 향상
+        Badges: ["Spring boot", "Java", "MySQL"]
+      - Title: 서비스 개선
+        Date: 2020.04 - 2026.03
+        Details:
+          - Circuit Breaker를 설계·도입하여 장애 전파를 차단하고 서비스 회복력 개선
+          - Rate Limiting과 Backpressure 구조를 적용하여 트래픽 급증 상황에서도 안정적인 요청 처리 보장
+          - 큐 기반 비동기 처리 구조를 설계하여 피크 트래픽 상황에서도 안정적인 서비스 운영 환경 구축
+        Badges: ["Spring boot", "Java", "MySQL"]
+
+Education:
+  - Course: 실전! Tensorflow로 배우는 딥러닝
+    Place: 삼성 멀티캠퍼스
+    Date: 2018.10 - 2018.11
+    Details: Tensorflow로 딥러닝 기술 기반 교육
+
+Skills:
+  - Family: Programming
+    Items:
+      - Java
+      - Spring boot
+      - Javascript
+      - Python
+      - NodeJS
+      - React Native
+  - Family: Frameworks
+    Items:
+      - Spring
+      - React
+  - Family: Messaging
+    Items:
+      - RabbitMQ
+      - eMQTT
+  - Family: Database
+    Items:
+      - MySQL
+      - Redis
+  - Family: Monitoring
+    Items:
+      - Zabbix
+      - Scouter
+  - Family: Infra
+    Items:
+      - WireGuard
+      - BIND9
+      - AWS
+      - Docker
+  # - Family: Misc
+  #   Items:
+  #     - Adobe Tools
+  #     - LaTeX
+
+# Languages:
+#   - Name: Portuguese
+#     Level: Native
+#   - Name: English
+#     Level: C2
+#   - Name: Spanish
+#     Level: B1
+#   - Name: German
+#     Level: B1
+
+Diplomas:
+  - 정보처리기사 (2010.12)
+
+# Interests:
+#   - 러닝(산책)
+#   - 등산
