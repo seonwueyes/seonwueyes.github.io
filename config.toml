@@ -24,7 +24,7 @@ colorRightColumnHeadingText = "#222"
 colorRightColumnBodyText = "#222"
 colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#e3bfb8"
-pages = 1
+pages = 5
 # Set this param to 'true' to swap the bar positions
 swapColumns = false
 footerNote = "© 2026 Seonwu. All rights reserved."

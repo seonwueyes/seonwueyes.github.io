@@ -10,7 +10,7 @@ BasicInfo:
     # - Icon: fas fa-globe
     #   Info: <a class="contact__link" href="https://ines-almeida.com" target="_blank">ines-almeida.com</a>
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://sunwoohama.tistory.com" target="_blank">blog</a>
+      Info: <a class="contact__link" href="https://sunwoohama.tistory.com" target="_blank">sunwoohama.tistory.com</a>
 
     - Icon: fas fa-map-marker-alt
       Info: Republic of Korea
@@ -216,7 +216,7 @@ Projects:
           - 차량 충격 및 상태 데이터 수집/모니터링 기능 개발
           - eMQTT 기반 원격 제어 시스템 구축
           - Keep-alive 최적화 및 QoS 레벨 설정을 통한 저전력/저대역폭 환경에서의 통신 안정성 확보
-          - <strong>Trubleshooting:</strong> 메시지 처리 지연 및 병목 해결<a href="https://sunwoohama.tistory.com/1">([블로그])</a>
+          - <strong>Trubleshooting:</strong> 메시지 처리 지연 및 병목 해결<a href="https://sunwoohama.tistory.com/1">([티스토리])</a>
         Badges: ["eMQTT", "Java", "Spring boot", "Mybatis", "Thymeleaf"]
   - Employer: 유비벨록스 모바일
     Positions:
@@ -226,7 +226,7 @@ Projects:
           - <strong>문제:</strong> TTL 기반 캐시의 Cache Miss 발생 시 DB로 조회가 집중되는 병목 현상으로 응답 지연 발생
           - <strong>해결:</strong> 개별 갱신 방식에서 Batch 기반 100% Full Cache 구조로 전환하여 모든 조회 요청을 Redis에서 즉시 응답(100% Hit)하도록 개선
           - <strong>결과:</strong> DB I/O 부하를 획기적으로 낮추고 서비스 조회 성능 최적화
-          - <strong>Trubleshooting:</strong> TTL 캐시도 병목 <a href="https://sunwoohama.tistory.com/103">([블로그])</a>
+          - <strong>Trubleshooting:</strong> TTL 캐시도 병목 <a href="https://sunwoohama.tistory.com/103">([티스토리])</a>
         Badges: ["ehCache", "Java"]
 
 Education:
