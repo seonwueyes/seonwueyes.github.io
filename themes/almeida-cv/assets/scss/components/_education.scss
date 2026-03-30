@@ -1,5 +1,8 @@
 .education {
     &__item {
         @include avoid-break;
+        &:not(:last-child) {
+            margin-bottom: 1.2rem;
+        }
     }
 }

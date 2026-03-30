@@ -84,6 +84,12 @@
         }
     }
 
+    &__place--date {
+        &::before {
+            content: 'date_range';
+        }
+    }
+
     &__bullet {
         list-style: square inside;
         margin-left: 1rem;
