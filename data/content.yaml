@@ -146,9 +146,9 @@ Projects:
       - Title: MS 지원 중단에 따른 CodePush 서버 내재화
         Date: 2024.11 - 2025.01
         Details:
-          - Microsoft의 App Center(CodePush) 지원 중단 결정으로 인해 서비스 운영의 영속성 위기 발생
-          - 스토리지 솔루션(MinIO, SeaweedFS, S3) 비교 분석을 통한 최적의 아키텍처 선정
-          - S3+CloudFront 조합으로 ALB 트래픽 비용 90% 절감 및 전역 배포 성능 확보
+          - <strong>문제 인지:</strong> Microsoft의 App Center(CodePush) 지원 중단 결정으로 인해 서비스 운영의 영속성 위기 발생
+          - <strong>기술 검토:</strong> 스토리지 솔루션(MinIO, SeaweedFS, S3) 비교 분석을 통한 최적의 아키텍처 선정
+          - <strong>구축 결과:</strong> S3+CloudFront 조합으로 ALB 트래픽 비용 90% 절감 및 전역 배포 성능 확보
           - Github을 통한 구현 공유 <a href="https://github.com/seonwueyes/sn-code-push-server" target="_blank">([GitHub Repo])</a>
           - 기술 블로그를 통한 외부 <a href="https://sunwoohama.tistory.com/206"target="_blank">([티스토리])</a>
         Badges: ["NodeJS", "Docker", "PM2", "AWS CloudFront", "AWS S3", "Nginx"]
